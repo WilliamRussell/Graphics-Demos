@@ -1,0 +1,20 @@
+model
+{
+	name floor
+	file models/floor.wbf
+}
+model
+{
+	name ball
+	file models/sphere.wbf	
+}
+model
+{
+	name sphere
+	file models/lightsphere.wbf
+}
+model
+{
+	name fullScreenQuad
+	file models/quad.wbf
+}

@@ -1,0 +1,36 @@
+shader
+{
+	name basic
+	vertex shaders/basic.vert
+	fragment shaders/basic.frag
+}
+shader
+{
+	name depthShader
+	vertex shaders/depth.vert
+	fragment shaders/depth.frag
+}
+shader
+{
+	name blurShader
+	vertex shaders/blur.vert
+	fragment shaders/blur.frag
+}
+shader
+{
+	name gBufferShader
+	vertex shaders/gBufferCreation.vert
+	fragment shaders/gBufferCreation.frag
+}
+shader
+{
+	name lightingShader
+	vertex shaders/quad.vert
+	fragment shaders/lighting.frag
+}
+shader
+{
+	name textShader
+	vertex shaders/text.vert
+	fragment shaders/text.frag
+}

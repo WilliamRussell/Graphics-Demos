@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Objects">
+      <UniqueIdentifier>{f649ba64-4b20-488b-aafc-d6f2e0003c7f}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="Scene.cpp" />
+    <ClCompile Include="FullScreenQuad.cpp">
+      <Filter>Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="LightingQuad.cpp">
+      <Filter>Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="MovingLight.cpp">
+      <Filter>Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="Object.cpp">
+      <Filter>Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="Balls.cpp">
+      <Filter>Objects</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Scene.h" />
+    <ClInclude Include="FullScreenQuad.h">
+      <Filter>Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="LightingQuad.h">
+      <Filter>Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="MovingLight.h">
+      <Filter>Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="Object.h">
+      <Filter>Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="Balls.h">
+      <Filter>Objects</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

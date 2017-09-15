@@ -1,0 +1,9 @@
+WF
+arraysize 4 6 1
+vertex (-10,0,10) normal (0,1,0) binormal (1,0,0) tangent (0,1,-1) texCoord (0,0)
+vertex (10,0,10) normal (0,1,0) binormal (1,0,0) tangent (0,1,-1) texCoord (8,0)
+vertex (10,0,-10) normal (0,1,0) binormal (1,0,0) tangent (0,1,-1) texCoord (8,8)
+vertex (-10,0,-10) normal (0,1,0) binormal (1,0,0) tangent (0,1,-1) texCoord (0,8)
+
+index 0 1 2 2 3 0
+mesh 0 6

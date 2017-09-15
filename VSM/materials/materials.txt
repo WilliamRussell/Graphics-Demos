@@ -1,0 +1,45 @@
+materialProperties
+{
+	baseTexture texture
+	normalTexture texture
+	ambient color
+	diffuse color
+	specular color
+	reflectance float	
+	roughness float
+}
+material
+{
+   name FloorMat
+   baseTexture materials/floor01_C.jpg
+   normalTexture materials/floor01_N.jpg
+   ambient (1.0,1.0,1.0,1.0)
+   diffuse (1.0,1.0,1.0,1.0)
+   specular (1.0,1.0,1.0,1.0)
+   reflectance (0.6)
+   roughness (0.6)
+}
+material
+{
+   name BallMat
+   baseTexture materials/white.png
+   normalTexture materials/normal1.jpg
+   ambient (1.0,1.0,1.0,1.0)
+   diffuse (1.0,1.0,1.0,1.0)
+   specular (1.0,1.0,1.0,1.0)
+   reflectance (0.6)
+   roughness (0.6)
+}
+material
+{
+   name LightMat
+   baseTexture materials/white.png
+   normalTexture materials/normal1.jpg
+   ambient (1000.0,1000.0,0.0,1.0)
+   diffuse (1000.0,1000.0,0.0,1.0)
+   specular (0.0,0.0,0.0,1.0)
+   reflectance (0.0)
+   roughness (0.0)
+}
+
+
