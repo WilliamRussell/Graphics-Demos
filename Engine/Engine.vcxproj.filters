@@ -1,0 +1,255 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source">
+      <UniqueIdentifier>{6068b0ad-31e2-47f6-8123-ce39cd20a533}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Context">
+      <UniqueIdentifier>{dd42230e-c4bd-4aef-bac8-098ce198df9b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Texture">
+      <UniqueIdentifier>{df33af83-72d4-4450-8310-ee2fbd39a252}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Material">
+      <UniqueIdentifier>{b00e9330-4dd1-4cb0-aa8c-6452b4f2410a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Maths">
+      <UniqueIdentifier>{1b54be61-74d8-49e0-8322-833c3f961dea}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Misc">
+      <UniqueIdentifier>{2aedfddd-c1b5-4d95-9661-ac63df4b0df6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Light">
+      <UniqueIdentifier>{8dfb0e00-8720-47ef-a43f-ab9087bc0cb9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Shader">
+      <UniqueIdentifier>{f096c5c9-0357-41cf-bf4b-5bc6f196ef69}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resources">
+      <UniqueIdentifier>{4ed23f8b-130e-4c6f-ac5c-eaa1ec2ba7b6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Timer">
+      <UniqueIdentifier>{6730c2af-d5a4-4699-9415-b22e4a787e37}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Model">
+      <UniqueIdentifier>{d1da8014-0f22-41f0-a3dd-2b4389b0312e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Camera">
+      <UniqueIdentifier>{9174871a-0971-4025-a747-af0d6b012677}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Frame Buffer">
+      <UniqueIdentifier>{b0d0d921-7908-4031-b6a0-aa1f69f66d6c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Parser">
+      <UniqueIdentifier>{fee81b0e-be26-426a-8f42-afda4888022c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Text">
+      <UniqueIdentifier>{289adf77-edce-4a08-8119-99f5402c1cc4}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Engine.h">
+      <Filter>Source</Filter>
+    </ClInclude>
+    <ClInclude Include="Context.h">
+      <Filter>Source\Context</Filter>
+    </ClInclude>
+    <ClInclude Include="OGLTexture.h">
+      <Filter>Source\Texture</Filter>
+    </ClInclude>
+    <ClInclude Include="Texture.h">
+      <Filter>Source\Texture</Filter>
+    </ClInclude>
+    <ClInclude Include="Material.h">
+      <Filter>Source\Material</Filter>
+    </ClInclude>
+    <ClInclude Include="MaterialManager.h">
+      <Filter>Source\Material</Filter>
+    </ClInclude>
+    <ClInclude Include="Matrix4x4.h">
+      <Filter>Source\Maths</Filter>
+    </ClInclude>
+    <ClInclude Include="Vector3f.h">
+      <Filter>Source\Maths</Filter>
+    </ClInclude>
+    <ClInclude Include="Vector4f.h">
+      <Filter>Source\Maths</Filter>
+    </ClInclude>
+    <ClInclude Include="Color.h">
+      <Filter>Source\Misc</Filter>
+    </ClInclude>
+    <ClInclude Include="Light.h">
+      <Filter>Source\Light</Filter>
+    </ClInclude>
+    <ClInclude Include="OGLShader.h">
+      <Filter>Source\Shader</Filter>
+    </ClInclude>
+    <ClInclude Include="Shader.h">
+      <Filter>Source\Shader</Filter>
+    </ClInclude>
+    <ClInclude Include="ShaderManager.h">
+      <Filter>Source\Shader</Filter>
+    </ClInclude>
+    <ClInclude Include="Timer.h">
+      <Filter>Source\Timer</Filter>
+    </ClInclude>
+    <ClInclude Include="Quaternion.h">
+      <Filter>Source\Maths</Filter>
+    </ClInclude>
+    <ClInclude Include="Model.h">
+      <Filter>Source\Model</Filter>
+    </ClInclude>
+    <ClInclude Include="OGLModel.h">
+      <Filter>Source\Model</Filter>
+    </ClInclude>
+    <ClInclude Include="ModelManager.h">
+      <Filter>Source\Model</Filter>
+    </ClInclude>
+    <ClInclude Include="Camera.h">
+      <Filter>Source\Camera</Filter>
+    </ClInclude>
+    <ClInclude Include="FrameBuffer.h">
+      <Filter>Source\Frame Buffer</Filter>
+    </ClInclude>
+    <ClInclude Include="FrameBufferFactory.h">
+      <Filter>Source\Frame Buffer</Filter>
+    </ClInclude>
+    <ClInclude Include="OGLFrameBuffer.h">
+      <Filter>Source\Frame Buffer</Filter>
+    </ClInclude>
+    <ClInclude Include="TextureFactory.h">
+      <Filter>Source\Texture</Filter>
+    </ClInclude>
+    <ClInclude Include="Parser.h">
+      <Filter>Source\Parser</Filter>
+    </ClInclude>
+    <ClInclude Include="Input.h">
+      <Filter>Source\Context</Filter>
+    </ClInclude>
+    <ClInclude Include="Text.h">
+      <Filter>Source\Text</Filter>
+    </ClInclude>
+    <ClInclude Include="OGLText.h">
+      <Filter>Source\Text</Filter>
+    </ClInclude>
+    <ClInclude Include="Matrix3x3.h">
+      <Filter>Source\Maths</Filter>
+    </ClInclude>
+    <ClInclude Include="OGLUniformBufferObject.h">
+      <Filter>Source\Material</Filter>
+    </ClInclude>
+    <ClInclude Include="ModelLoader.h">
+      <Filter>Source\Model</Filter>
+    </ClInclude>
+    <ClInclude Include="ImportFlags.h">
+      <Filter>Source\Model</Filter>
+    </ClInclude>
+    <ClInclude Include="Vector2f.h">
+      <Filter>Source\Maths</Filter>
+    </ClInclude>
+    <ClInclude Include="Vector2i.h">
+      <Filter>Source\Maths</Filter>
+    </ClInclude>
+    <ClInclude Include="Vector3i.h">
+      <Filter>Source\Maths</Filter>
+    </ClInclude>
+    <ClInclude Include="FrustumPlane.h">
+      <Filter>Source\Camera</Filter>
+    </ClInclude>
+    <ClInclude Include="ICamera.h">
+      <Filter>Source\Camera</Filter>
+    </ClInclude>
+    <ClInclude Include="CubeCamera.h">
+      <Filter>Source\Camera</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Context.cpp">
+      <Filter>Source\Context</Filter>
+    </ClCompile>
+    <ClCompile Include="OGLTexture.cpp">
+      <Filter>Source\Texture</Filter>
+    </ClCompile>
+    <ClCompile Include="Material.cpp">
+      <Filter>Source\Material</Filter>
+    </ClCompile>
+    <ClCompile Include="MaterialManager.cpp">
+      <Filter>Source\Material</Filter>
+    </ClCompile>
+    <ClCompile Include="Matrix4x4.cpp">
+      <Filter>Source\Maths</Filter>
+    </ClCompile>
+    <ClCompile Include="Vector3f.cpp">
+      <Filter>Source\Maths</Filter>
+    </ClCompile>
+    <ClCompile Include="Vector4f.cpp">
+      <Filter>Source\Maths</Filter>
+    </ClCompile>
+    <ClCompile Include="Color.cpp">
+      <Filter>Source\Misc</Filter>
+    </ClCompile>
+    <ClCompile Include="OGLShader.cpp">
+      <Filter>Source\Shader</Filter>
+    </ClCompile>
+    <ClCompile Include="ShaderManager.cpp">
+      <Filter>Source\Shader</Filter>
+    </ClCompile>
+    <ClCompile Include="Quaternion.cpp">
+      <Filter>Source\Maths</Filter>
+    </ClCompile>
+    <ClCompile Include="Model.cpp">
+      <Filter>Source\Model</Filter>
+    </ClCompile>
+    <ClCompile Include="OGLModel.cpp">
+      <Filter>Source\Model</Filter>
+    </ClCompile>
+    <ClCompile Include="ModelManager.cpp">
+      <Filter>Source\Model</Filter>
+    </ClCompile>
+    <ClCompile Include="Camera.cpp">
+      <Filter>Source\Camera</Filter>
+    </ClCompile>
+    <ClCompile Include="FrameBufferFactory.cpp">
+      <Filter>Source\Frame Buffer</Filter>
+    </ClCompile>
+    <ClCompile Include="OGLFrameBuffer.cpp">
+      <Filter>Source\Frame Buffer</Filter>
+    </ClCompile>
+    <ClCompile Include="Parser.cpp">
+      <Filter>Source\Parser</Filter>
+    </ClCompile>
+    <ClCompile Include="Light.cpp">
+      <Filter>Source\Light</Filter>
+    </ClCompile>
+    <ClCompile Include="FrameBuffer.cpp">
+      <Filter>Source\Frame Buffer</Filter>
+    </ClCompile>
+    <ClCompile Include="OGLText.cpp">
+      <Filter>Source\Text</Filter>
+    </ClCompile>
+    <ClCompile Include="Matrix3x3.cpp">
+      <Filter>Source\Maths</Filter>
+    </ClCompile>
+    <ClCompile Include="OGLUniformBufferObject.cpp">
+      <Filter>Source\Material</Filter>
+    </ClCompile>
+    <ClCompile Include="ModelLoader.cpp">
+      <Filter>Source\Model</Filter>
+    </ClCompile>
+    <ClCompile Include="Vector2f.cpp">
+      <Filter>Source\Maths</Filter>
+    </ClCompile>
+    <ClCompile Include="Vector2i.cpp">
+      <Filter>Source\Maths</Filter>
+    </ClCompile>
+    <ClCompile Include="Vector3i.cpp">
+      <Filter>Source\Maths</Filter>
+    </ClCompile>
+    <ClCompile Include="FrustumPlane.cpp">
+      <Filter>Source\Camera</Filter>
+    </ClCompile>
+    <ClCompile Include="CubeCamera.cpp">
+      <Filter>Source\Camera</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
