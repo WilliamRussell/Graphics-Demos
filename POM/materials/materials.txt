@@ -1,0 +1,37 @@
+materialProperties
+{
+	baseTexture texture
+	normalTexture texture
+	depthTexture texture
+	ambient color
+	diffuse color
+	specular color
+	reflectance float	
+	roughness float
+}
+material
+{
+   name CubeMat
+   baseTexture materials/6f.jpg
+   normalTexture materials/7f.jpg
+   depthTexture materials/5f.jpg
+   ambient (1.0,1.0,1.0,1.0)
+   diffuse (1.0,1.0,1.0,1.0)
+   specular (1.0,1.0,1.0,1.0)
+   reflectance (0.6)
+   roughness (0.6)
+}
+material
+{
+   name LightMat
+   baseTexture materials/white.png
+   normalTexture materials/normal1.jpg
+   depthTexture materials/5f.jpg
+   ambient (1000.0,1000.0,0.0,1.0)
+   diffuse (1000.0,1000.0,0.0,1.0)
+   specular (0.0,0.0,0.0,1.0)
+   reflectance (0.0)
+   roughness (0.0)
+}
+
+
